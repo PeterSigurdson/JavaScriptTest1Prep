@@ -7,3 +7,5 @@ It represents the page so that programs can change the document structure,
 style, and content. 
 The DOM represents the document as nodes and objects. 
 That way, programming languages can connect to the page. 
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction

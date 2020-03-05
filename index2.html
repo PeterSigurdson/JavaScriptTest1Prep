@@ -1,0 +1,29 @@
+<html>
+    <head>
+    <script>
+    // run this function when the document is loaded
+    window.onload=b();
+    function b(){
+        // create a couple of elements in an otherwise empty HTML page
+        const heading = document.createElement("h1");
+        for(i=1;i<5;i++){
+            const heading_text = document.createTextNode("Pineapple!");
+            heading.appendChild(heading_text);
+            document.body.appendChild(heading);
+        }
+    } 
+    </script> 
+    </head> 
+    <h1>
+    <body>
+    
+    </body> 
+    </html>
+    // the method below selects the 
+    element with the id ofheadlet 
+    id = document.getElementById('head');
+// the code below selects the 
+first p element inside the first divlet q = document.querySelector('div p');
+/* Extra code 
+*/// this changes the color to redid.style.color = 'red';
+// give a font size of 30pxq.style.fontSize = '30px';
